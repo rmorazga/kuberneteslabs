@@ -8,24 +8,24 @@
  spec:
    containers:
      - name: wordfactory
-       image: rmoraz/labs:wordfactory
+       image: rmoraz/labs:wordfactory:latest
        imagePullPolicy: Always
        ports:
          - containerPort: 80
      - name: hashfactory
-       image: rmoraz/labs:hashfactory
+       image: rmoraz/labs:hashfactory:latest
        imagePullPolicy: Always
        ports:
          - containerPort: 81
      - name: redis
-       image: rmoraz/labs:redis
+       image: rmoraz/labs:redis:latest
        imagePullPolicy: Always
      - name: apiredis
-       image: rmoraz/labs:apiredis
+       image: rmoraz/labs:apiredis:latest
        imagePullPolicy: Always
        ports:
          - containerPort: 82
      - name: forcedworker
-       image: rmoraz/labs:forcedworker
+       image: rmoraz/labs:forcedworker:latest
        imagePullPolicy: Always
       
