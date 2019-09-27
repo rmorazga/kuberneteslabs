@@ -16,7 +16,7 @@
        ports:
          - containerPort: 80
      - name: redis
-       image: cloud.docker.com/repository/docker/rmoraz/labs/redis
+       image: redis
      - name: apiredis
        image: cloud.docker.com/repository/docker/rmoraz/labs/apiredis
        ports:
