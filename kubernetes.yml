@@ -8,19 +8,19 @@
  spec:
    containers:
      - name: wordfactory
-       image: cloud.docker.com/repository/docker/rmoraz/labs/wordfactory
+       image: rmoraz/labs:wordfactory
        ports:
          - containerPort: 80
      - name: hashfactory
-       image: cloud.docker.com/repository/docker/rmoraz/labs/hashfactory
+       image: rmoraz/labs:hashfactory
        ports:
          - containerPort: 80
      - name: redis
        image: redis
      - name: apiredis
-       image: cloud.docker.com/repository/docker/rmoraz/labs/apiredis
+       image: rmoraz/labs:apiredis
        ports:
          - containerPort: 80
      - name: forcedworker
-       image: cloud.docker.com/repository/docker/rmoraz/labs/forcedworker
+       image: rmoraz/labs:forcedworker
       
