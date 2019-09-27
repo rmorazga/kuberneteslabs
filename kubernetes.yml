@@ -14,13 +14,13 @@
      - name: hashfactory
        image: rmoraz/labs:hashfactory
        ports:
-         - containerPort: 80
+         - containerPort: 81
      - name: redis
        image: rmoraz/labs:redis
      - name: apiredis
        image: rmoraz/labs:apiredis
        ports:
-         - containerPort: 80
+         - containerPort: 82
      - name: forcedworker
        image: rmoraz/labs:forcedworker
       
